@@ -1,1 +1,111 @@
-/* место для вашего кода */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 92px 24px 96px;
+}
+
+.header_menu-list {
+    list-style: circle;
+    display: flex;
+}
+
+.header_menu-item_active {
+    list-style: none;
+}
+
+.header_logo {
+    display: block;
+    width: 129.11px;
+    height: 104.65px;
+    top: 1.16px;
+    left: 9.03px;
+}
+
+.header_menu-item {
+    margin-right: 32px; 
+}
+
+.header_menu {
+    display: flex;
+    align-items: center; 
+}
+
+.cover {
+    position: relative;
+    background-image: url(../images/cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 757px;
+    display: flex;
+    flex-direction: column;
+}
+
+.overlay {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+}
+ 
+.cover__title {
+    display: block;
+    color: white;
+    font-family: "Raleway", serif;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 115px;
+    position: relative;
+    z-index: 3;
+    flex: 1;
+}
+
+.aligned-text_center {
+    text-align: center;
+}
+
+.aligned-text_right {
+    text-align: right;
+}
+
+.cover__description-text {
+    color: white;
+    font-family: "Raleway", serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 3;
+}
+
+.bet-button {
+    color: white;
+    font-family: "Raleway", serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 25.83px;  
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid white;
+    position: relative;
+    z-index: 3;
+    padding: 12px 32px 11px 31px;
+}
+
+.cover__description {
+    display: flex;
+    justify-content: space-between;
+    word-spacing: 20px;
+    padding: 0 50px 51px 78px;
+    align-items: center;
+}
+
+.cover__title_center {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
